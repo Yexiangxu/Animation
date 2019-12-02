@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+	android:fillAfter="true"
+	android:repeatMode="reverse"
+	android:fromXScale="1"
+	android:toXScale="2"
+	android:fromYScale="1"
+	android:toYScale="2"
+	android:pivotX="50%"
+	android:pivotY="50%"
+	android:duration="500"
+	android:repeatCount="4">
+	<!--
+	fromXScale: x轴方向上动画开始时自身的缩放比例，取值为浮点型，1.0表示没有变化，大于1.0表示放大，小于1.0表示缩小
+	toXScale:   x轴方向上动画结束时自身的缩放比例
+	fromYScale: y轴方向上动画开始时自身的缩放比例
+	toYScale:   y轴方向上动画结束时自身的缩放比例
+	pivotX,pivotY:缩放中心坐标 (x,y)
+                 设置中心坐标的单位有3中(数字、50%、50%p)
+		         数字:屏幕上的坐标点（px）
+		         x%:按照View的百分比计算(0% - 100%)
+		        %p:按照View的父容器百分比计算(0%-100%)
+		 比如50、50%、50%p
+		当为数值时，表示在当前View的左上角加上50px，做为起始缩放点；
+		如果是50%，表示在当前控件的左上角加上自己宽度的50%做为起始点；
+		如果是50%p，那么就是表示在当前的左上角加上父控件宽度的50%做为起始点x轴坐标。
+	-->
+
+</scale>

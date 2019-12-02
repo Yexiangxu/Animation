@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivAnimation"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/frame_animation" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:text="开始"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:text="结束"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

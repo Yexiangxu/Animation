@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/linear_normal"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center_horizontal">
+
+			<Button
+				android:id="@+id/btn_normal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:theme="@style/AppTheme.White"
+				android:text="Move Normal" />
+
+			<TextView
+				android:id="@+id/tv_normal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="20dp"
+				android:visibility="gone"
+				android:text="Transitions View Visible" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear_animation"
+			android:layout_weight="1"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center_horizontal">
+
+			<Button
+				android:id="@+id/btn_animation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:theme="@style/AppTheme.White"
+				android:text="Move Amimation" />
+
+			<TextView
+				android:id="@+id/tv_animation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="20dp"
+				android:visibility="gone"
+				android:layout_marginTop="30dp"
+				android:text="Transitions View Visible" />
+		</LinearLayout>
+	</LinearLayout>
+
+
+</layout>

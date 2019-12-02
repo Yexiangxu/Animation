@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<data>
+
+		<import type="com.lazyxu.animation.MainActivity" />
+	</data>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/btn_frameanimation"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="帧动画"/>
+
+		<Button
+			android:id="@+id/btn_tweenanimation"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="补间动画"/>
+
+		<Button
+			android:id="@+id/btn_propertyanimation"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="属性动画"/>
+		<Button
+			android:id="@+id/btn_layout"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="animateLayoutChanges与LayoutTransition "/>
+		<Button
+		android:id="@+id/btn_clanimation"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="clanimation动画"/>
+		<Button
+			android:id="@+id/btn_constrain1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="ConstrainLayout margin"/>
+		<Button
+			android:id="@+id/btn_constrain2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="ConstrainLayout centerHorizontally"/>
+		<Button
+			android:id="@+id/btn_constrain3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="ConstrainLayout center"/>
+		<Button
+			android:id="@+id/btn_constrain4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="ConstrainLayout constrainWidth"/>
+		<Button
+			android:id="@+id/btn_constrain5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="ConstrainLayout connect"/>
+		<Button
+			android:id="@+id/btn_constrain6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="ConstrainLayout HorizontalChain"/>
+	</LinearLayout>
+</layout>
